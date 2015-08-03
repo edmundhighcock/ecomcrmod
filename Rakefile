@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "ecomcrmod"
   gem.homepage = "http://github.com/edmundhighcock/ecomcrmod"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A module to allow CodeRunner to run the Grad-Shafranov solver ECOM}
+  gem.description = %Q{A module to allow CodeRunner to run the Grad-Shafranov solver ECOM}
   gem.email = "edmundhighcock@users.sourceforge.net"
   gem.authors = ["Edmund Highcock"]
   # dependencies defined in Gemfile
