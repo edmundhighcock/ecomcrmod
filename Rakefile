@@ -40,6 +40,12 @@ end
 
 task :default => :test
 
+Rake::TestTask.new(:sync_variables) do |test|
+  test.libs << 'lib' << 'sync_variables'
+  test.pattern = 'sync_variables/sync_variables.rb'
+  test.verbose = true
+end
+
 require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
